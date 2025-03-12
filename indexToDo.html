@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<script src="js/script.js" defer></script>
+		<title>ToDo App</title>
+	</head>
+	<body>
+		<div id="container">
+			<main id="main-content">
+				<h2>To-Do Liste</h2>
+				<form action="" id="todo-form">
+					<input type="datetime-local" name="datoTid" id="todo-tid-dato" />
+					<div class="row">
+						<input type="text" name="todo" id="todo-text" placeholder="Tilføj opgave"></input>
+						<input type="submit" value="+" id="add-todo" />
+					</div>
+				</form>
+				<div id="view"></div>
+				<button id="rmv-checked">Fjern markeret</button>
+			</main>
+		</div>
+	</body>
+</html>
